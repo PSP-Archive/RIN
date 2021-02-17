@@ -1,0 +1,15 @@
+■コンパイル手順
+RINのコンパイルには以下のサイトのpsptoolchainを使用しています。 
+http://www.oopo.net/consoledev/
+
+またライブラリとして zlib 1.2.2 と libpng 1.2.8 を使用しています。
+（ruka氏のunziplibも変更を加えて使用）
+http://www.zlib.net/
+http://www.libpng.org/pub/png/libpng.html
+
+ライブラリのソースをlibフォルダ内の所定の場所に、
+既にあるファイルを上書きせずに解凍してください。
+あとは libpng.a、zlib.a、unziplib.a をコンパイルし、
+libフォルダにコピーしてください。
+
+これでRINのコンパイルが通るはずです。
